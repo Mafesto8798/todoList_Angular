@@ -1,0 +1,20 @@
+.todo-list {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  min-height: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 5px;
+}
+
+.congrats {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}

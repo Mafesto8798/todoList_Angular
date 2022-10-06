@@ -1,0 +1,23 @@
+.todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.todo-form input {
+  font-family: "Montserrat", sans-serif;
+  width: 200px;
+  margin: 0 auto;
+  height: 20px;
+}
+
+.todo-form button {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+  border: none;
+  width: 210px;
+  color: white;
+  background: #ff1493;
+  padding: 5px;
+}

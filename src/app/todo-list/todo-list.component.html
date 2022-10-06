@@ -1,0 +1,11 @@
+<div class="todo-list">
+  <div *ngFor="let t of allTodos">
+    <app-todo-item [todoItem]="t" (remove)="removeTask(t)"></app-todo-item>
+  </div>
+</div>
+
+<app-todo-form (addNewTodo)="addTask($event)"></app-todo-form>
+
+<div *ngIf="nothingToDo" class="congrats">
+  <h1>Congrats! You're productive!</h1>
+</div>
